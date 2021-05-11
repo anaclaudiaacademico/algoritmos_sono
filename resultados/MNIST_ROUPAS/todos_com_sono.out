@@ -1,4 +1,6 @@
 experimento;alpha;epsilon;esparso;acuracia;seed;dataset;peso
+sparse_com_sono;1.0;20.0;;0.22139999978244304;2;mnist_roupas;648
+sparse_com_sono;1.0;20.0;;0.09999999988824129;3;mnist_roupas;638
 sparse_com_sono;1.0;50.0;;0.09999999986961484;1;mnist_roupas;417
 sparse_com_sono;1.0;50.0;;0.09999999990686774;2;mnist_roupas;385
 sparse_com_sono;1.0;50.0;;0.0999999999627471;3;mnist_roupas;407
@@ -21,6 +23,8 @@ sparse_com_sono;1.0;80.0;;0.09999999970197677;15;mnist_roupas;159
 sparse_com_sono;1.0;80.0;;0.09999999994412065;16;mnist_roupas;164
 sparse_com_sono;1.0;80.0;;0.10000000050291419;17;mnist_roupas;166
 sparse_com_sono;1.0;80.0;;0.09999999970197677;18;mnist_roupas;170
+sparse_com_sono;2.0;20.0;;0.09999999947845936;1;mnist_roupas;1276
+sparse_com_sono;2.0;20.0;;0.09999999947845936;2;mnist_roupas;1264
 sparse_com_sono;2.0;50.0;;0.09999999947845936;3;mnist_roupas;817
 sparse_com_sono;2.0;50.0;;0.09999999986961484;4;mnist_roupas;824
 sparse_com_sono;2.0;80.0;;0.09999999988824129;1;mnist_roupas;348
@@ -87,6 +91,7 @@ sparse_com_sono;4.0;80.0;;0.28560000061988833;16;mnist_roupas;683
 sparse_com_sono;4.0;80.0;;0.31030000165104865;17;mnist_roupas;635
 sparse_com_sono;4.0;80.0;;0.46279999673366545;18;mnist_roupas;636
 sparse_com_sono;4.0;80.0;;0.09999999947845936;19;mnist_roupas;633
+sparse_com_sono;5.0;20.0;;0.5248999950289727;2;mnist_roupas;3232
 sparse_com_sono;5.0;50.0;;0.6323999959230423;1;mnist_roupas;2062
 sparse_com_sono;5.0;50.0;;0.6540999990701676;2;mnist_roupas;1985
 sparse_com_sono;5.0;50.0;;0.5381999984383583;3;mnist_roupas;2026
@@ -109,6 +114,7 @@ sparse_com_sono;5.0;80.0;;0.09999999947845936;16;mnist_roupas;842
 sparse_com_sono;5.0;80.0;;0.3524000008404255;17;mnist_roupas;801
 sparse_com_sono;5.0;80.0;;0.36360000014305116;18;mnist_roupas;795
 sparse_com_sono;5.0;80.0;;0.35570000037550925;19;mnist_roupas;819
+sparse_com_sono;6.0;20.0;;0.5290999963879586;2;mnist_roupas;3883
 sparse_com_sono;6.0;50.0;;0.5400999960303307;1;mnist_roupas;2456
 sparse_com_sono;6.0;50.0;;0.5552999949455262;2;mnist_roupas;2368
 sparse_com_sono;6.0;80.0;;0.4196999987959862;1;mnist_roupas;1008
@@ -171,6 +177,7 @@ sparse_com_sono;8.0;80.0;;0.5178999984264374;16;mnist_roupas;1361
 sparse_com_sono;8.0;80.0;;0.44609999656677246;17;mnist_roupas;1292
 sparse_com_sono;8.0;80.0;;0.5327999964356422;18;mnist_roupas;1307
 sparse_com_sono;8.0;80.0;;0.4271999981999397;19;mnist_roupas;1346
+sparse_com_sono;9.0;20.0;;0.5615999987721443;2;mnist_roupas;5837
 sparse_com_sono;9.0;50.0;;0.5673000019788742;1;mnist_roupas;3727
 sparse_com_sono;9.0;50.0;;0.5867000004649162;4;mnist_roupas;3735
 sparse_com_sono;9.0;80.0;;0.683100004196167;1;mnist_roupas;1507
@@ -192,6 +199,8 @@ sparse_com_sono;9.0;80.0;;0.6290000003576278;16;mnist_roupas;1532
 sparse_com_sono;9.0;80.0;;0.5352999979257583;17;mnist_roupas;1464
 sparse_com_sono;9.0;80.0;;0.5201999959349632;18;mnist_roupas;1468
 sparse_com_sono;9.0;80.0;;0.7042000019550323;19;mnist_roupas;1516
+sparse_com_sono;10.0;20.0;;0.6186999982595444;2;mnist_roupas;6481
+sparse_com_sono;10.0;20.0;;0.5857999974489212;3;mnist_roupas;6513
 sparse_com_sono;10.0;50.0;;0.5530999967455864;1;mnist_roupas;4144
 sparse_com_sono;10.0;50.0;;0.623499998152256;2;mnist_roupas;4010
 sparse_com_sono;10.0;80.0;;0.6791000014543533;1;mnist_roupas;1667
@@ -213,6 +222,7 @@ sparse_com_sono;10.0;80.0;;0.5960000005364418;16;mnist_roupas;1710
 sparse_com_sono;10.0;80.0;;0.6076000034809113;17;mnist_roupas;1639
 sparse_com_sono;10.0;80.0;;0.6409000045061112;18;mnist_roupas;1655
 sparse_com_sono;10.0;80.0;;0.5546999981999398;19;mnist_roupas;1684
+sparse_com_sono;11.0;20.0;;0.6144999983906746;2;mnist_roupas;7166
 sparse_com_sono;11.0;50.0;;0.5474999955296517;1;mnist_roupas;4544
 sparse_com_sono;11.0;50.0;;0.6299000006914138;3;mnist_roupas;4473
 sparse_com_sono;11.0;80.0;;0.6674000042676925;1;mnist_roupas;1832
@@ -234,6 +244,8 @@ sparse_com_sono;11.0;80.0;;0.637200003862381;16;mnist_roupas;1884
 sparse_com_sono;11.0;80.0;;0.5544999930262565;17;mnist_roupas;1795
 sparse_com_sono;11.0;80.0;;0.6375999999046326;18;mnist_roupas;1829
 sparse_com_sono;11.0;80.0;;0.6866000002622604;19;mnist_roupas;1838
+sparse_com_sono;12.0;20.0;;0.6210999968647957;2;mnist_roupas;7810
+sparse_com_sono;12.0;20.0;;0.6527999979257584;3;mnist_roupas;7857
 sparse_com_sono;12.0;50.0;;0.6318000015616417;2;mnist_roupas;4835
 sparse_com_sono;12.0;50.0;;0.6910000020265579;3;mnist_roupas;4912
 sparse_com_sono;12.0;50.0;;0.62450000166893;4;mnist_roupas;4999
