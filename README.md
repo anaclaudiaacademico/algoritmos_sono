@@ -23,3 +23,6 @@ Cada arquivo .out possui os campos:
 - **dataset** - conjunto de dados utilizados no experimento
 - **peso** - número total de pesos utilizados no experimento
 
+### Utils
+Scripts em python e shell script utilizados para tratar os dados tanto para a formatação adequada para o treino no supercomputador quanto para o tratamento dos resultados.
+
