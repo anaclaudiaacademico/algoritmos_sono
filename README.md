@@ -1,28 +1,41 @@
-# algoritmos_sono
-Os experimentos foram realizados com 3 algoritmos.
-- **esparso e com sono** - o modelo é criado retirando uma porcentagem dos pesos(epsilon) entre as camadas e entre cada treino outra fração de pesos menos significativos são removidos e outros são adicionados randomicamente.
-- **esparso e sem sono** - o modelo é criado retirando uma porcentagem dos pesos(epsilon) entre as camadas mas não são removidos nem adicionados novos pesos entre treinos
-- **denso** - rede densa e sem a remoção/adição de pesos entre treinos.
+# sleep_algorithms
+The experiments were conducted using 3 algorithms.
 
-_A rede "densa" e "esparsa sem sono" possuem códigos identicos, inclusive os resultados estão nos mesmo arquivos. O que as difere ´e o fato da rede densa possuir a esparsialidade(epsilon) igual a zero._
+**Sparse with sleep** — the model is created by removing a percentage of the weights (epsilon) between layers, and between each training phase another fraction of the least significant weights is removed while new weights are randomly added.
 
-### Gráficos
-Nesta seção estão os códigos referentes aos gráficos utilizados para a análise dos resultados
+**Sparse without sleep** — the model is created by removing a percentage of the weights (epsilon) between layers, but no weights are removed or added between training phases.
 
-### Resultados
-Os resultados possuem terminação .out e estão em formatados em csv. Oa experimentos foram separados nos datasets: MNIST[0-4], MNIST[0-9], Fashion-MNIST, CIFAR-10 e CIFAR-100.
+**Dense** — a dense network without weight removal/addition between training phases.
+
+
+The “dense” and “sparse without sleep” networks share identical code, and their results are stored in the same files. The difference is that the dense network has sparsity (epsilon) equal to zero.
+
+### Graphs
+This section contains the code used to generate the graphs for analyzing the results.
+
+
+### Results
+The results files have .out extension and are formatted as CSV files. The experiments were divided into the following datasets: MNIST[0-4], MNIST[0-9], Fashion-MNIST, CIFAR-10, and CIFAR-100.
 
 Cada arquivo .out possui os campos:
 
-- **experimento** - descrevendo se é esparse com sono o esparse sem sono.
-- **alpha** - número de neurônios na camada central do modelo. Importante antentar que para saber o número exato de neurônios nas camadas intermediárias vai depender do dataset. Nas bases MNIST o número total de neurônios nas camadas intermediárias será alpha x 3, nas bases CIFAR será alpha x 9. Exemplo: se no dataset MNIST[0-4] o alpha é 4, ele terá 12 neurônios nas camadas intermediárias, se o experimento foi realizado com alpha = 4 na base CIFAR-10, ele terá 36 neurônios nas camadas intermediárias.
-- **epsilon** - porcentagem dos pesos que foram retirados entre as camadas intermediárias.
-- **esparso** - este valor foi criado no inicio dos experimentos para validação dos modelos depois se tornou inútil e consta como null nos modelos- 
-- **acuracia** - acurácia final do modelo após 1000 épocas.
-- **seed** - valor do seed no experimento
-- **dataset** - conjunto de dados utilizados no experimento
-- **peso** - número total de pesos utilizados no experimento
+Each .out file contains the following fields:
+
+**experiment** — describes whether the experiment is sparse with sleep or sparse without sleep.
+
+**alpha** — number of neurons in the central layer of the model. It is important to note that the exact number of neurons in the intermediate layers depends on the dataset. For MNIST datasets, the total number of neurons in the intermediate layers is alpha × 3; for CIFAR datasets, it is alpha × 9. Example: if in the MNIST[0-4] dataset alpha = 4, the model will have 12 neurons in the intermediate layers. If the experiment was performed with alpha = 4 on CIFAR-10, it will have 36 neurons in the intermediate layers.
+
+**epsilon** — percentage of weights removed between intermediate layers.
+
+**sparse** — this value was initially created for model validation during the experiments, but became unnecessary later and is now set to null in the models.
+
+**accuracy** — final model accuracy after 1000 epochs.
+
+**seed**— seed value used in the experiment.
+
+**dataset** — dataset used in the experiment.
+
+**weights** — total number of weights used in the experiment.
 
 ### Utils
-Scripts em python e shell script utilizados para tratar os dados tanto para a formatação adequada para o treino no supercomputador quanto para o tratamento dos resultados.
-
+Section contains Python and shell scripts used for data processing, both for proper formatting before training on the supercomputer and for processing the experiment results.
